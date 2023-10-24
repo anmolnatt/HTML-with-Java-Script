@@ -1,0 +1,44 @@
+<%-- 
+    Document   : newjsp
+    Created on : Sep 22, 2017, 9:05:31 PM
+    Author     : Anmol Natt
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>E-Gas Seva</title>
+        <style>
+            #img2
+             {
+                position: relative;
+                top:360px;
+                width: 100%;
+                left:-10px;
+                }
+                #img1
+             {
+                position: relative;
+                top:165x;
+                left:1200px;
+                width:141px
+                }
+        </style>
+    </head>
+    <body style="background-color: red;width: 1300px;height: 2000px; overflow: scroll;">
+        <form>
+            <input type="button" name="btn" value="Login/SignUp" onclick="parent.location='newjsp1.jsp'"/>
+            <input type="button" name="btn" value="Apply New Connection" onclick="parent.location='newjsp5.jsp'"/>
+            <input type="button" name="btn" value="Query" onclick="parent.location='newjsp6.jsp'"/>
+            <input type="button" name="btn" value="Rates" onclick="parent.location='newjsp7.jsp'"/>
+            <input type="button" name="btn" value="Dealer Login" onclick="parent.location='newjsp8.jsp'"/>
+        </form>
+        <img  src="D:\New Folder\2.jpg" style="" id="img2">
+        <img  src="D:\New Folder\1.jpg" style="" id="img1">
+        
+    <table><tr><td>Apply Here</td><td></td></tr> </table>
+        
+    </body>
+</html>
